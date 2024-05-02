@@ -1,0 +1,78 @@
+    var questions = ["En el silencio sólo s'escuchaba un susurro de abejas que sonaba. (Repetición de fonemas)", 
+    "De ese mar surgieron tus lágrimas; lágrimas de melancolía.", 
+    "Repetición de una o varias palabras a principio del verso.", 
+    "Figura retórica que consiste en oponer dos ideas empleando palabras antónimas o frases de significado contrario, cercanas en proximidad y de estructura gramatical similar. (Gran paso y pequeño paso)", 
+    "Apelar a un ser animado o inanimado, ausente o presente, que suele interrumpir el discurso.", 
+    "Eliminar intencionadamente nexos y conjunciones.", 
+    "En tierra, en humo, en polvo, en sombra, en nada. (Acumulación de palabras)", 
+    "Comenzar y terminar una misma frase con la misma palabra. ('¿Cómo era, Dios mío, cómo era?')", 
+    "Repetir las mismas palabras al final de frases o versos.", 
+    "Repetición de adjetivos innecesarios, que no aportan información adicional. 'La noche oscura del alma.'", 
+    "Sustituir una palabra o expresión desagradable por otra de connotaciones menos negativas (Gorda --> Rellenita)", 
+    "Alteración del orden lógico de una frase. 'De verdes sauces hay una espesura.'", 
+    "Atribuir a un sustantivo una cualidad o acción propia de otro sustantivo cercano en el mismo texto. (su barba soplando al viento)", 
+    "Exageración", 
+    "Realizar una pregunta sin esperar una respuesta.", 
+    "Dar a entender lo contrario de lo que se dice (con intención de burla muchas veces).", 
+    "Negación de lo que se quiere afirmar. (No es muy alto = es bajo)", 
+    "Identificar un término real con otro imaginario existiendo entre ambos una relación de semejanza", 
+    "Designar una cosa o idea con el nombre de otra con la cual existe una relación de dependencia o causalidad. '¿Viste el Picasso que había en la entrada?'", 
+    "Uso de términos contradictorios en el mismo sintagma. 'Muertos vivientes'", 
+    "Unión de dos ideas opuestas que resultan contradictorias, pero que conllevan a un significado profundo.", 
+    "Repetición de una misma estructura gramatical.", 
+    "Cambios fonéticos que conllevan cambios de significado. ('No es lo mismo arte que hartar.')", 
+    "Atribuir cualidades o acciones propias de seres humanos a animales, objetos o ideas abstractas.", 
+    "Repetición de una misma palabra con diferentes morfemas flexivos (masculino, femenino, singular, plural, modo verbal...)", 
+    "Uso innecesario de conjunciones dentro de la oración.", 
+    "Empleo de palabras superfluas o redundantes. ('Ciego que nada ve')", 
+    "Intercambio de dos ideas paralelas y opuestas. ('Por casco sus cabellos, su pecho por coraza.')", 
+    "Repetir una frase en sentido inverso (es un tipo de quiasmo).", 
+    "Consiste en comparar un término real con otro imaginario que se le asemeje en alguna cualidad. Su estructura contiene los adverbios 'como', 'tal como', 'cual' o similares. UTILIZA EL TÉRMINO QUE COMIENZA POR S", 
+    "Consiste en designar la parte por el todo o viceversa. Relacionada con la metonimia.", 
+    "Consiste en mezclar sensaciones de sentidos distintos (audición, visión, gusto, olfato, tacto) o mezclar dichas sensaciones con sentimientos (tristeza, alegría, etc.).", 
+    "Se usa una sola vez una palabra cuando debería emplearse más veces en el texto (elipsis)."];
+
+var answers = ["Aliteración", 
+    "Anadiplosis", 
+    "Anáfora", 
+    "Antítesis", 
+    "Apóstrofe", 
+    "Asíndeton", 
+    "Enumeración", 
+    "Epanadiplosis", 
+    "Epífora", 
+    "Epíteto", 
+    "Eufemismo", 
+    "Hipérbaton", 
+    "Hipálage", 
+    "Hipérbole", 
+    "Interrogación retórica", 
+    "Ironía", 
+    "Lítote", 
+    "Metáfora", 
+    "Metonimia", 
+    "Oxímoron", 
+    "Paradoja", 
+    "Paralelismo", 
+    "Paranomasia", 
+    "Personificación", 
+    "Polípoton", 
+    "Polisíndeton", 
+    "Pleonasmo", 
+    "Quiasmo", 
+    "Retruécano", 
+    "Símil", 
+    "Sinécdoque", 
+    "Sinestesia", 
+    "Zeugma"];
+
+  function ask(){
+    const random = Math.floor(Math.random() * questions.length);
+    var res = (random, questions[random]);
+    let answer = prompt(res);
+    if (answer == (random, answers[random])){
+    window.alert("¡Correcto!");  
+    } else{
+        window.alert("Incorrecto, la respuesta correcta era " + (random, answers[random]));
+    }
+}
