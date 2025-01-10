@@ -140,6 +140,10 @@ const checkAnswerButton = document.getElementById("checkAnswer");
 const correctCount = document.getElementById("correctCount");
 const incorrectCount = document.getElementById("incorrectCount");
 const wrongCount = document.getElementById("wrongCount");
+const totalCount = document.getElementById("totalCount");
+//Indicamos el número de palabras totales al inicio
+let totalQuestions = questions.length;
+totalCount.textContent = totalQuestions;
 
 // Función para iniciar el juego y mostrar la primera pregunta
 startButton.addEventListener("click", () => {
