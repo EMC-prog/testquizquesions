@@ -49,7 +49,7 @@ const questions = [
         { "question": "Persona que fa assaigs", "answer": "Assagista" },
         { "question": "Gentilici d’Hongria", "answer": "Hongarès" },
         { "question": "Fer menys vius (mort)", "answer": "Esmorteir" },
-        { "question": "Donar moltíssima por (terror)", "answer": "Aterrar" },
+        { "question": "Donar moltíssima por (terror)", "answer": "Aterrir" },
         { "question": "Rebre el sabor", "answer": "Assaborir" },
         { "question": "Pedal per embragar", "answer": "Embragatge" },
         { "question": "Olor de la sal", "answer": "Salabror" },
