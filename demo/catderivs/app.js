@@ -20,7 +20,7 @@ const questions = [
         { "question": "Fer rodó", "answer": "Arrodonir" },
         { "question": "Ple de pols", "answer": "Polsegós" },
         { "question": "Ple de pedres", "answer": "Pedregós" },
-        { "question": "Material per fregar", "answer": "Fregall" },
+        { "question": "Eina per fregar", "answer": "Fregall" },
         { "question": "Tornar malalt", "answer": "Emmalaltir" },
         { "question": "Posar vernís", "answer": "Envernissar" },
         { "question": "Posar lloses", "answer": "Enllosar" },
