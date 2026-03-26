@@ -1,4 +1,4 @@
-# testquizquesions
+# testquizquestions
 
 Proyecto pausado indefinidamente.
 
