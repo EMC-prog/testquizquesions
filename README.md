@@ -1,6 +1,6 @@
-# testquizquestions
+# Testquizquestions
 
-Proyecto pausado indefinidamente.
+Un proyecto de aprendizaje de términos básicos de diferentes temas escolares.
 
 Cuestionarios de aprendizaje disponibles:
 * [Lengua castellana - Figuras retóricas](demo/figret/figuras.html)
