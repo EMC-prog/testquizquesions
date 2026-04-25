@@ -100,7 +100,7 @@ function showRandomQuestion() {
     currentQuestion = randomQuestion; // Guarda la pregunta actual
 
     // Elimina la pregunta respondida de la lista para no repetirla (Si modo infinito no es true)
-    if (infiniteMode.value=false){
+    if (infiniteMode.checked == false){
         questions.splice(randomIndex, 1);
     }
     
